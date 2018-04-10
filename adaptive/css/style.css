@@ -466,14 +466,17 @@ h4 {
   text-align: left;
   font-size: 1.25em;
   line-height: 32px;
-  color: #333333;
+  color: #555555;
   font-family: 'Open Sans', sans-serif;
   width: 90%;
   max-width: 540px;
   margin: 0 auto;
 }
 .form .data input {
-  font-size: 20px;
+  font-size: 1.25em;
+  line-height: 32px;
+  color: #555555;
+  font-family: 'Open Sans', sans-serif;
 }
 .form .data .radio_margin {
   margin: 5px 30px 50px 0;
@@ -526,15 +529,19 @@ h4 {
   display: block;
 }
 .form .data #messageid {
-  font-size: 20px;
+  font-size: 1.25em;
+  line-height: 32px;
+  color: #555555;
+  font-family: 'Open Sans', sans-serif;
   padding-top: 10px;
   height: 130px;
   resize: none;
 }
 .form .data select {
-  font-size: 18px;
+  font-size: 1.25em;
   line-height: 32px;
   color: #555555;
+  font-family: 'Open Sans', sans-serif;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
