@@ -1,0 +1,270 @@
+@media screen and (max-width: 720px)
+{
+    .write_me_name
+    {
+        img
+        {
+            display: none;
+        }
+    }
+}
+
+/*@media screen and (max-width: 340px)
+{
+    .left_column
+    {
+        margin-top: 200px;
+        .logo
+        {
+            width: 95%;
+        }
+    }
+    
+    .right_column
+    {
+        margin-top: 30px;
+        img
+        {
+            width: 50%;
+        }
+    }
+}*/
+
+@media screen and (min-width: 321px)
+{
+    .left_column
+    {
+        width: 100%;
+        text-align: center;
+        
+        .logo
+        {
+            max-width: 300px;
+            width: 95%;
+        }
+
+        .right
+        {
+            margin-left: 20px;
+        }
+    }
+    
+    .right_column
+    {
+        margin: 0 auto;
+        
+        h1,
+        h2,
+        img,
+        a
+        {
+            margin-left: 5%;
+        }
+        
+        p
+        {
+            text-align: center;
+            width: 90%;
+            margin: 0 auto;
+        }
+        
+        .top_menu
+        {
+            color: rgb(51,51,51);
+            height: auto;
+            margin: 30px auto 30px 20%;
+            margin-bottom: 40px;
+            
+            p.author
+            {
+                text-align: left;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px)
+{
+    
+    .left_column
+    {
+        width: 330px/1001px*100%;
+        margin-top: 209px;
+        text-align: left;
+        .logo
+        {
+            max-width: 350px;
+            width: 105%;
+        }
+    }
+    
+    .right_column
+    {
+        margin-top: 160px;
+        margin-left: 60px;
+        width: 570px/960px*100%;
+        
+        h1,
+        h2,
+        img,
+        a
+        {
+            margin-left: 0;
+        }
+        
+        p
+        {
+            text-align: left;
+            width: 100%;
+            margin: 0;
+        }
+        
+        .top_menu
+        {
+            margin:0;
+            width:100%;
+            height: 205px;
+            
+            p.strong
+            {
+                margin-top: 75px;
+                color: rgb(255,255,255);
+            }
+            
+            p.author
+            {
+                color: rgb(245,245,245);
+            }
+        }
+    }
+    .list
+    {
+        width: 285px/1200px*100%; //285px;
+        margin-right: 20px/1280px*100%;
+        
+        .last
+        {
+            margin-right: 0;
+        }
+    }
+    
+    .firstout
+    {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 640px)
+{
+    
+    .header
+    {
+       #hamburg
+        {
+            float:right;
+            display: block;
+            height: 50px;
+            width: 50px;
+            background-image: url(../images/Hamburger_icon.svg.png);
+            background-repeat: no-repeat;
+            background-size: 50px;
+        }
+        span
+        {
+            display: none;
+        }
+        
+        a
+        {
+            width: 100%;
+            background-color: #fff;
+        }
+    }
+    
+    .list
+    {
+        margin-right: 0;
+    }
+    .left_column
+    {
+        margin-top: 200px;
+        .logo
+        {
+            width: 95%;
+        }
+    }
+    
+    .right_column
+    {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 340px)
+{
+    .header
+    {
+        .about_me
+        {
+            width: 140px-43px;
+        }
+        
+        .my_hobbie
+        {
+            width: 155px-43px;
+        }
+    }
+}
+@media screen and (min-width: 640px)
+{
+    .favorite_films
+    {
+        width: 240px-43px;
+    }
+    .header
+    {
+        img
+        {
+            display: none;
+        }
+    }
+}
+@media screen and (min-width: 640px) and (max-width: 1023px)
+{
+    .left_column
+    {
+        margin-top: 150px;
+        .logo
+        {
+            max-width: 300px;
+            width: 95%;
+        }
+    }
+    
+    .firstout,
+    .secondout
+    {
+        display: table;
+        //width: 95%;
+        margin: 0 auto;
+        
+        .second,
+        .last
+        {
+            float: right;
+            margin-right: 0;
+        }
+    }
+    
+    .list
+    {
+        width: 49%;
+        margin: 0;
+    }
+    
+    .third,
+    .first
+    {
+        margin-right: 20px/1200px*100%;
+    }
+}

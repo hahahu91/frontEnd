@@ -1,0 +1,167 @@
+blockquote
+{
+    margin-left: 60px;
+}
+
+.clear
+{
+    clear: both;
+}
+.body
+{
+    width: 100%;
+}
+.main_container
+{
+    position: relative;
+    width: 1001px;
+    margin: 100px 460px;
+}
+
+.header
+{ 
+    width: 1001px;
+}
+
+.logo
+{
+    float: left;
+    height: 350px;
+    width: 330px;
+    margin: 0 60px 50px 20px;
+    border-radius: 5px;
+}
+
+.top_menu
+{
+    float: left;
+    height: 300px;
+    width: 570px;
+    margin: 50px 20px 50px 0;
+}
+.logotypes
+{
+    float: left;   
+    width: 131px;
+    height: 87px;
+    z-index: 3;
+}
+
+.quotes
+{
+    width: 130px;
+    height: 87px;
+    z-index: 3;
+}
+.Strong
+{   
+  font-size: 28px;
+  font-family: 'Georgia', sans-serif;
+  color: rgb(132, 132, 132);
+  font-style: italic;
+  text-align: left;    
+  line-height: 1.5;
+  margin-top: -25px;
+}
+p.author 
+{
+    font-size: 16px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-top: 5px;
+}
+
+.columns_container
+{
+    margin-bottom: 0;
+}
+
+.column
+{
+    float: left;
+    width: 330px;
+    margin-left: 20px;
+}
+
+.column.last
+{
+    margin: 0;
+    margin-left: 60px;
+    width: 570px;
+    font-size: 19px;
+    line-height: 33px;
+    font-family: 'Georgia', sans-serif;
+    color: rgb(85, 85, 85);
+    text-align: left;
+}
+.column.last p 
+{
+    margin-top: 31px;
+    margin-bottom: 45px;
+}
+.main_title
+{
+    font-size: 48px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.h2 
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-bottom: -19px;
+}
+h3
+{
+    margin-top: -6px;
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(21,169,140);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;    
+}
+
+li
+{
+    margin: 0;
+    margin-left: 22px;
+    font-size: 19px;
+    line-height: 37px;
+    color: rgb(85,85,85);
+    font-family: 'Georgia', sans-serif;
+    list-style-position: inherit;
+}
+ol li
+{
+    margin-left: 18px;
+}
+ul
+{
+    margin-bottom: 45px;   
+}
+.poloska
+{  
+  background-color: rgb(69, 195, 170);  
+  width: 60px;
+  height: 6px;
+  z-index: 15;
+}
+.write_me a
+{
+    margin-left: -1px;
+    margin-top: -3px;
+    display: block;
+    text-decoration: none;
+    color: rgb(21,169,139);
+}

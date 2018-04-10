@@ -1,0 +1,33 @@
+@media screen and (min-width: 621px)
+{
+    .list
+    {
+        width: 45%;
+    }
+}
+@media screen and (min-width: 1366px){
+    .list{
+       width: 285px/1200px*100%; //285px;
+    }
+
+}
+@media screen and (max-width: 620px){
+    .list{
+       width: 90%;
+    }
+    .right_column{
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width: 621px){
+    .right_column{
+        margin-top: 160px;
+        
+    }
+}
+@media screen and (max-width: 400px){
+    .header a{
+        width: 90%;
+        text-align: center;
+    }
+}

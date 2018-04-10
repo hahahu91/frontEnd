@@ -1,0 +1,186 @@
+$Georgia: 'Georgia', sans-serif;
+
+.clear
+{
+    clear: both;
+}
+
+body
+{
+    width: 100%;
+}
+
+.main_container
+{
+    width: 960px;
+    position: relative;
+    margin: 0 auto;
+    
+    .left_column
+    {
+        margin-top: 50px;
+        width: 330px;
+        float: left;
+        
+        .logo
+        {
+            height: 350px;
+            width: 100%;
+            margin-bottom: 42px;
+            border-radius: 10px;
+        }
+        
+        li
+        {
+            font-size: 19px;
+            line-height: 36px;
+            color: rgb(85,85,85);
+            font-family: 'Georgia', sans-serif;
+        }
+        
+        ol li
+        {
+            margin-left: 18px;
+        }
+        
+        ul
+        {
+            margin-bottom: 42px;
+            
+            li
+            {
+                list-style-position: inside;
+            }
+        }
+    }
+    
+    .right_column
+    {
+        float: left;
+        margin-top: 50px;
+        margin-left: 60px;
+        width: 570px;
+        
+        .top_menu
+        {
+            margin-top: 50px;
+            margin-bottom: 140px;
+            height: 205px;
+            
+            .quotes
+            {
+                width: 130px;
+                height: 87px;
+                z-index: 3;
+            }
+            
+            blockquote
+            {
+                line-height: 42px;
+                margin-left: 60px;
+                
+                p.strong
+                {
+                    margin-top: -25px;
+                    font-size: 28px;
+                    color: rgb(132, 132, 132);
+                    font-family: 'Georgia', sans-serif;
+                    font-style: italic;
+                    text-align: left;
+                }
+                
+                p.author
+                {
+                    font-size: 16px;
+                    color: rgb(51,51,51);
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: bold;
+                    margin: 4px 0 50px 0;
+                }
+            }
+        }
+        
+        .line
+        {
+            width: 60px;
+            height: 6px;
+            border-radius: 3px;
+            background-color: #45c3a9;
+        }
+        
+        p.first
+        {
+            font-size: 19px;
+            line-height: 32.5px;
+            color: rgb(85,85,85);
+            font-family: 'Georgia', sans-serif;
+            text-align: left;
+            margin-top: 40px;
+            margin-bottom: 42px;
+        }
+        
+        p.second
+        {
+            font-size: 19px;
+            line-height: 32.5px;
+            color: rgb(85,85,85);
+            font-family: 'Georgia', sans-serif;
+            text-align: left;
+            margin-bottom: 40px;
+        }
+        
+        .write_me a
+        {
+            display: block;
+            color: rgb(21,169,139);
+            font-size: 19px;
+            line-height: 32px;
+            text-decoration: none;
+            margin-bottom: 130px;
+            
+            span
+            {
+                text-decoration-line: underline;
+            }
+        }
+    } 
+}
+
+h1
+{
+    font-size: 48px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 5px 0 24px 5px;
+}
+
+h2 
+{
+    margin-bottom: 15px;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgb(51,51,51);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h3
+{
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 32px;
+    color: rgb(21,169,140);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+/*
+
+1. Фигурные скобки пишем с новой строки.
+2. Убрать лишние пробелы.
+3. Перед свойствами каждого селектора должна быть пустая строка.
+4. Класс с большой буквы.
+
+*/
