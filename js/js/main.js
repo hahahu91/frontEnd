@@ -1,38 +1,51 @@
-var message1 = " some   text ";
+var messageWithExtraBlanks = " some   text ";
 var message = "some text";
 
 console.log(lastSymbol(message));
-console.log(withOutLast(message));
-console.log(mirror(message1));
-console.log(noSpace(message1));
+console.log(stringWithoutLast(message));
+console.log(reverseString(messageWithExtraBlanks));
+console.log(removeExtraBlanks(messageWithExtraBlanks));
 
-function lastSymbol(str) {
-    return (str[str.length -1]);
+function lastSymbol(string) {
+    return (string[string.length - 1]);
 }
 
-function withOutLast(str) {
-    var withoutlast = "";
-    for (i=0; i < str.length - 1; i++) {
-        withoutlast += str[i];
+function stringWithoutLast(string) {
+    var newString = '';
+    var i;
+    for (i = 0; i < string.length - 1; i++) {
+        newString += string[i];
     }
-    return (withoutlast);
+    return (newString);
 }
-function mirror(str) {
-    var Mirror = "";
-    for (i = str.length-1; i >= 0; i--) {
-        Mirror += str[i];
+function reverseString(string) {
+    var newString = '';
+    var i;
+    for (i = string.length - 1; i >= 0; i--) {
+        newString += string[i];
     }
-    return (Mirror);
+    return (newString);
 }
-function noSpace(str) {
-    var NoSpace = "";
-    for (i = 0; i < str.length; i++) {
-        if (str[i] != " ") {
-            NoSpace += str[i];
+
+function removeExtraBlanks(string) {
+    var newString = '';
+    var i;
+    for (i = 0; i < string.length; i++) {
+        if (string[i] != ' ') {
+            newString += string[i];
         }
-        else if ((str[i] == " ") && (str[i-1] != ' ') && (i != str.length-1) && (i != 0)){
-            NoSpace += str[i];
+        else if ((string[i] == ' ') && (string[i - 1] != ' ') && (i != string.length - 1) && (i !== 0)){
+            newString += string[i];
         }
     }
-    return(NoSpace);
+    return(newString);
 }
+
+/*
+
+1. Почитать code convention.
+2. Название переменной должно объяснять, что в ней находится.
+3. Название функции должно объяснять, что она делает.
+4. Не использовать сокращения (str).
+
+*/

@@ -254,6 +254,8 @@ h4
     background-color: #f9f9f9;
 }
 
+
+
 .films
 {
     max-width: 1200px;
@@ -303,28 +305,47 @@ h4
             margin-right: 0;
         }
     }
+    
 
 }
 
-.button_films
+.films_underbutton
 {
-    display: block;
-    width: 115px;
+    opacity: 0;
+    overflow: hidden;
+    height: 0;
+}
+
+.hidden
+{
+    opacity: 1;
+    height: auto;
+    visibility: visible;
+    transition: 2s;
+    overflow: visible;
+}
+
+.buttons
+{
+    margin: 42px auto 45px;
     text-align: center;
-    margin: 45px auto 43px;
-    background-color: #15a98b;
-    padding: 11px 55px;
-    border-radius: 5px;
-    font-size: 19px/16px*1em;
-    line-height: 32px;
-    color: rgb(245,245,245);
-    font-family: 'Georgia', sans-serif;
-    text-decoration: none;
-}
-
-.button_films:hover
-{
-    background-color: #098d71;
+    
+    .button_films
+    {
+        background-color: #15a98b;
+        padding: 14px 55px;
+        border-radius: 5px;
+        font-size: 19px/16px*1em;
+        line-height: 32px;
+        color: rgb(245,245,245);
+        font-family: 'Georgia', sans-serif;
+        text-decoration: none;
+    }
+    
+    .button_films:hover
+    {
+        background-color: #098d71;
+    }
 }
 
 .form
@@ -358,7 +379,6 @@ h4
         {
             float:left;
             margin-bottom: 65px;
-            font-weight: 300;
         }
         
         img
@@ -380,7 +400,7 @@ h4
         
         input
         {
-            font-size: 1em;
+            font-size: 20px/16px*1em;
             line-height: 32px;
             color: rgb(85,85,85);
             font-family: 'Open Sans', sans-serif;
@@ -408,21 +428,26 @@ h4
                 cursor: pointer;
             }
             
-            .form_border
+            .error
             {
-                margin: 7px 19px 22px 0;
-                padding-left: 19px/540px*100%;
-                height: 45px;
-                width: 519px/540px*100%;
-                max-width: 100%;
-                border-radius: 3px;
-                border: 2px solid #c9c9c9;
-                
-                input,
-                textarea
-                {
-                    max-width: 90%;
-                }
+                border: 2px solid red;
+            }
+        }
+        
+        .form_border
+        {
+            margin: 7px 19px 22px 0;
+            padding-left: 19px/540px*100%;
+            height: 45px;
+            width: 519px/540px*100%;
+            max-width: 100%;
+            border-radius: 3px;
+            border: 2px solid #c9c9c9;
+
+            input,
+            textarea
+            {
+                max-width: 90%;
             }
         }
         
@@ -451,11 +476,6 @@ h4
                 {
                     cursor: pointer;
                 }
-                
-                span
-                {
-                    margin: 0 5px;
-                }
             }
         }
         
@@ -467,7 +487,7 @@ h4
         
         #messageid
         {
-            font-size: 1em;
+            font-size: 20px/16px*1em;
             line-height: 32px;
             color: rgb(85,85,85);
             font-family: 'Open Sans', sans-serif;
@@ -478,7 +498,7 @@ h4
         
         select
         {
-            font-size: 1em;
+            font-size: 20px/16px*1em;
             line-height: 32px;
             color: rgb(85,85,85);
             font-family: 'Open Sans', sans-serif;
@@ -508,12 +528,15 @@ h4
         {
             background-color: #098d71;
         }
+        
+
     }
 }
 
 .footer
 {
-    padding: 18px 20px;
+    padding: 18px 0;
+    width: 100%;
     text-align: center;
     background-color: #f5f5f5;
     

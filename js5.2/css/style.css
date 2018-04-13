@@ -53,8 +53,11 @@
   .right_column .top_menu {
     color: #333333;
     height: auto;
-    margin: 30px 10% 40px 10%;
-    text-align: center;
+    margin: 30px auto 30px 20%;
+    margin-bottom: 40px;
+  }
+  .right_column .top_menu p.author {
+    text-align: left;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -413,13 +416,27 @@ h4 {
   margin-right: 0;
 }
 
-.button_films {
-  display: block;
-  width: 115px;
+.films_underbutton {
+  opacity: 0;
+  overflow: hidden;
+  height: 0;
+}
+
+.hidden {
+  opacity: 1;
+  height: auto;
+  visibility: visible;
+  transition: 2s;
+  overflow: visible;
+}
+
+.buttons {
+  margin: 42px auto 45px;
   text-align: center;
-  margin: 45px auto 43px;
+}
+.buttons .button_films {
   background-color: #15a98b;
-  padding: 11px 55px;
+  padding: 14px 55px;
   border-radius: 5px;
   font-size: 1.1875em;
   line-height: 32px;
@@ -427,8 +444,7 @@ h4 {
   font-family: 'Georgia', sans-serif;
   text-decoration: none;
 }
-
-.button_films:hover {
+.buttons .button_films:hover {
   background-color: #098d71;
 }
 
@@ -456,7 +472,6 @@ h4 {
 .form .write_me_name h2 {
   float: left;
   margin-bottom: 65px;
-  font-weight: 300;
 }
 .form .write_me_name img {
   margin-top: 20px;
@@ -472,7 +487,7 @@ h4 {
   margin: 0 auto;
 }
 .form .data input {
-  font-size: 1em;
+  font-size: 1.25em;
   line-height: 32px;
   color: #555555;
   font-family: 'Open Sans', sans-serif;
@@ -492,7 +507,10 @@ h4 {
   width: 100%;
   cursor: pointer;
 }
-.form .data form .form_border {
+.form .data form .error {
+  border: 2px solid red;
+}
+.form .data .form_border {
   margin: 7px 19px 22px 0;
   padding-left: 3.5185185185%;
   height: 45px;
@@ -501,8 +519,8 @@ h4 {
   border-radius: 3px;
   border: 2px solid #c9c9c9;
 }
-.form .data form .form_border input,
-.form .data form .form_border textarea {
+.form .data .form_border input,
+.form .data .form_border textarea {
   max-width: 90%;
 }
 .form .data .form_border:hover {
@@ -523,15 +541,12 @@ h4 {
 .form .data .gender .radio_div label {
   cursor: pointer;
 }
-.form .data .gender .radio_div span {
-  margin: 0 5px;
-}
 .form .data .your_message {
   margin-top: 35px;
   display: block;
 }
 .form .data #messageid {
-  font-size: 1em;
+  font-size: 1.25em;
   line-height: 32px;
   color: #555555;
   font-family: 'Open Sans', sans-serif;
@@ -540,7 +555,7 @@ h4 {
   resize: none;
 }
 .form .data select {
-  font-size: 1em;
+  font-size: 1.25em;
   line-height: 32px;
   color: #555555;
   font-family: 'Open Sans', sans-serif;
@@ -568,7 +583,8 @@ h4 {
 }
 
 .footer {
-  padding: 18px 20px;
+  padding: 18px 0;
+  width: 100%;
   text-align: center;
   background-color: #f5f5f5;
 }
